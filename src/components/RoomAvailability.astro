@@ -1,8 +1,7 @@
 ---
 import { fetchAPI } from '../utils/api.js';
 
-let res = await fetchAPI('rooms', 200);
-let roomsRemaining: number = await res.json();
+let roomsRemaining: number = await fetchAPI('rooms', 200);
 ---
 
 <p
